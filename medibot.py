@@ -156,7 +156,7 @@ def get_gemini_ai_response(prompt):
 initializeAI()
 
 # Initialize the chatbot
-csv_file = 'Downloads/medical_services1.csv'
+csv_file = 'medical_services1.csv'
 chatbot = MedicalChatbot(csv_file)
 
 # Initialize session state variables if they don't exist
